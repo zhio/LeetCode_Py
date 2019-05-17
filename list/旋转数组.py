@@ -13,5 +13,5 @@ def rotate2(nums,k):
     i = k % len(nums)
     nums[:] = nums[-i:]+nums[:-i]
 
-ls = [1,2,3]
-print(rotate2(ls,1))
+ls = [1,2,3,4,5,6,7]
+print(rotate1(ls,3))
